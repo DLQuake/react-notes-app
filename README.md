@@ -1,6 +1,12 @@
-# Getting Started with Create React App
+# Note Taking App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a simple note taking app built using React. It allows users to create and delete notes with titles and content. The app uses React hooks for state management and is styled using the Bulma CSS framework.
+
+## Getting Started
+To run the app, clone the repository and navigate to the project directory. Run `npm install` to install dependencies, then run `npm start` to start the development server. The app will be available at http://localhost:3000.
+
+## Usage
+To create a new note, enter the title and the content of the note and click the "Add Note" button. To delete a note, click the "Delete" button next to the note.
 
 ## Available Scripts
 
