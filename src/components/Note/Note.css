@@ -1,9 +1,0 @@
-.no-border {
-    border: none;
-}
-
-.no-resize {
-    resize: none !important;
-    outline: none !important;
-    overflow: hidden !important;
-}

@@ -1,0 +1,17 @@
+.theme-switcher {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.theme-button {
+    border: none;
+    background-color: transparent;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: inherit;
+}
+
+.theme-button i {
+    transition: color 0.3s ease;
+}
