@@ -6,6 +6,7 @@ import ThemeSwitcher from './components/ThemeSwitcher';
 import { useLocalStorage } from './hooks/useLocalStorage';
 import Loader from './components/Loader';
 import ProjectDescription from './components/ProjectDescription';
+import Footer from './components/Footer';
 
 function App() {
 	const [notes, setNotes, isLoading] = useLocalStorage('notes', []);
@@ -68,6 +69,7 @@ function App() {
 					</div>
 				</div>
 			</div>
+			<Footer />
 		</div>
 	);
 }
